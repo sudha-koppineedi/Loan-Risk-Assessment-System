@@ -1,0 +1,75 @@
+<svg width="480" height="320" viewBox="0 0 480 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Subtle Background Card Canvas -->
+    <rect width="480" height="320" rx="16" fill="#FFFFFF" stroke="#E3E5DD" stroke-width="1.5"/>
+    
+    <!-- Soft Decorative Ambient Glows -->
+    <circle cx="240" cy="160" r="130" fill="#F7F5EE" opacity="0.9"/>
+    <circle cx="340" cy="110" r="75" fill="#EEF2E8" opacity="0.7"/>
+    
+    <!-- Olive Botanical Branch (Left Flank) -->
+    <path d="M65 245 C80 195 110 160 150 145" stroke="#687A45" stroke-width="2.8" stroke-linecap="round"/>
+    <ellipse cx="85" cy="205" rx="12" ry="6" transform="rotate(-30 85 205)" fill="#3F5F3E" opacity="0.9"/>
+    <ellipse cx="112" cy="178" rx="12" ry="6" transform="rotate(-15 112 178)" fill="#687A45" opacity="0.85"/>
+    <ellipse cx="140" cy="155" rx="11" ry="5.5" transform="rotate(10 140 155)" fill="#3F5F3E" opacity="0.9"/>
+    <ellipse cx="98" cy="222" rx="10" ry="5" transform="rotate(-65 98 222)" fill="#687A45" opacity="0.8"/>
+
+    <!-- Main Loan Document Card (Center) -->
+    <g filter="drop-shadow(0 10px 20px rgba(0,0,0,0.06))">
+        <rect x="155" y="45" width="185" height="230" rx="12" fill="#FFFFFF" stroke="#E3E5DD" stroke-width="1.5"/>
+        <!-- Folded Corner Effect -->
+        <path d="M312 45 L340 73 L312 73 Z" fill="#EBF0E6"/>
+        
+        <!-- Document Header Bar -->
+        <rect x="178" y="70" width="60" height="8" rx="4" fill="#3F5F3E"/>
+        <rect x="245" y="70" width="45" height="8" rx="4" fill="#E3E5DD"/>
+        
+        <!-- Divider -->
+        <line x1="178" y1="92" x2="318" y2="92" stroke="#F0F2EB" stroke-width="1.5"/>
+        
+        <!-- Document Content Skeleton Rows -->
+        <rect x="178" y="108" width="125" height="6" rx="3" fill="#D5D9D0"/>
+        <rect x="178" y="122" width="100" height="6" rx="3" fill="#E6EAE2"/>
+        <rect x="178" y="136" width="112" height="6" rx="3" fill="#E6EAE2"/>
+        <rect x="178" y="150" width="85" height="6" rx="3" fill="#E6EAE2"/>
+        
+        <!-- Embedded Analytics Growth Line -->
+        <path d="M178 198 L202 188 L226 193 L255 174 L285 180 L318 162" stroke="#3F5F3E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="318" cy="162" r="3.5" fill="#3F5F3E"/>
+        
+        <!-- Verified Status Stamp -->
+        <rect x="178" y="222" width="90" height="26" rx="6" fill="#F0F5F0" stroke="#3F5F3E" stroke-width="1.2"/>
+        <text x="190" y="239" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#3F5F3E" letter-spacing="0.8">VERIFIED</text>
+        <circle cx="254" cy="235" r="4.5" fill="#3F5F3E"/>
+        <path d="M252 235 L253.5 236.5 L256.5 233.5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Floating Underwriting KPI Card (Right Overlay) -->
+    <g filter="drop-shadow(0 8px 18px rgba(0,0,0,0.07))">
+        <rect x="280" y="150" width="150" height="82" rx="10" fill="#FFFFFF" stroke="#E3E5DD" stroke-width="1.5"/>
+        <text x="296" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#687067" letter-spacing="0.5">UNDERWRITING SCORE</text>
+        <text x="296" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#202820">780</text>
+        <rect x="350" y="186" width="62" height="20" rx="10" fill="#EEF4EE" stroke="#C5DCC6" stroke-width="1"/>
+        <text x="365" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2B572E">PRIME</text>
+        <!-- Sparkline -->
+        <path d="M296 216 L325 212 L355 214 L385 208 L415 206" stroke="#687A45" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Financial Coin Elements in Terracotta Accent (Bottom Left) -->
+    <g filter="drop-shadow(0 4px 8px rgba(217, 119, 50, 0.28))">
+        <!-- Coin 1 (Bottom) -->
+        <ellipse cx="130" cy="265" rx="18" ry="8" fill="#C25E1A"/>
+        <rect x="112" y="256" width="36" height="9" fill="#C25E1A"/>
+        <ellipse cx="130" cy="256" rx="18" ry="8" fill="#D97732"/>
+        
+        <!-- Coin 2 (Middle) -->
+        <ellipse cx="130" cy="250" rx="18" ry="8" fill="#C25E1A"/>
+        <rect x="112" y="241" width="36" height="9" fill="#C25E1A"/>
+        <ellipse cx="130" cy="241" rx="18" ry="8" fill="#E88B46"/>
+        
+        <!-- Coin 3 (Top) -->
+        <ellipse cx="130" cy="235" rx="18" ry="8" fill="#C25E1A"/>
+        <rect x="112" y="226" width="36" height="9" fill="#C25E1A"/>
+        <ellipse cx="130" cy="226" rx="18" ry="8" fill="#F09C5A"/>
+        <text x="125" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF">₹</text>
+    </g>
+</svg>
